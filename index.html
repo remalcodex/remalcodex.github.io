@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portfolio</title>
+  <meta name="description" content="My journey as a programmer.">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+  <body>
+      <div id="particles-js">
+  <div class="header">
+      <h1>
+        <span class="site-title">Remaldeep Singh</span>
+        <span class="site-description">A Curious Programmer</span>
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
+        <!--<a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>-->
+        <!--<a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>-->
+        <a aria-label="My Github" target="_blank" href="https://github.com/remalcodex"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+      <section id="about">
+         <div class="user-details">
+  <h1> My Expertise </h1>
+  <p> Having worked in Machine Learning, Image Processing and parallel programming I have a good grasp on applying algorithms on CPU's and GPU's. Although personally my favourite research area is deep neural networks. </p>
+</div>
+  <div class="user">
+    <!--<div class="tech">
+      <h2>Design</h2>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+      <i class="devicon-sass-original colored"></i>
+      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        Vinyl XOXO lumbersexual</p>
+    </div>-->
+    <div class="tech">
+      <h2>Code</h2>      
+      <i class="devicon-python-plain-wordmark colored"></i>
+      <i class="devicon-cplusplus-plain"></i>
+	  <i class="devicon-java-plain-wordmark colored"></i>
+
+	  <img src="assets/fonts/mlLogos/tensorflow-tf.svg" class="container"> 	  
+	  <img src="assets/fonts/mlLogos/cuda.svg" class="container">
+	  <img src="assets/fonts/mlLogos/Matlab_Logo.png" class="container">	  
+	  <img src="assets/fonts/mlLogos/pandas.png" class="container">
+	  <img src="assets/fonts/mlLogos/scikit-learn-logo-notext.png" class="container">
+	  <img src="assets/fonts/mlLogos/numpy.svg" class="container">
+	  
+      <p>Languages I have picked up over the years.</p>
+    </div>
+	
+    <div class="tech">
+      <h2>Tools</h2>
+      <i class="devicon-git-plain colored"></i>
+      <i class="devicon-intellij-plain colored"></i>	  
+	  <i class="devicon-visualstudio-plain colored"></i>	  
+	  <i class="devicon-linux-plain colored"></i>	  
+	  <img src="assets/fonts/mlLogos/eclipse.png" class="container">
+	  <i class="devicon-pycharm-plain-wordmark"></i>
+      <p>Tools I use for a living.</p>
+    </div>
+</div>
+
+      </section>
+      <section id="projects">
+        <div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">   
+	<!--<iframe width="100%" src="https://www.youtube.com/embed/BLLwSTm73IM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+	<div class="containerV"> 
+	<iframe src="https://www.youtube.com/embed/BLLwSTm73IM" frameborder="0" allowfullscreen class="video"></iframe>
+	</div>
+  </div>  
+  <div class="contents">
+    <h3> Face Morphing </h3>
+    <ul>
+      <li>Matlab, Image Processing</li>
+    </ul>
+    <p>The goal of this project was to smoothly morph one face to another face using the thin plate spline, radial basis function. Morphing
+combines both shape and color of reference images. It is pretty similar to what you see in movies when a face morphs into another
+character.</p>
+    <a class="project-link" href="https://github.com/remalcodex/ImageProcessing/tree/master/FaceMorphing" target="_blank">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="/assets/img/higgsboson.jpg" />
+  </div>
+  <div class="contents-right">
+    <h3> Searching for Higgs-Boson Particles Using Machine Learning Techniques </h3>
+    <ul>
+      <li> Python, Tensorflow, Pandas, Scikit-learn</li>
+    </ul> 
+    <p>Searching for exotic particles like the Higgs-Boson in a high energy particle collider is essentially a complex signal-versus-background classification problem. Hence in this project we, a team of two, used Machine learning in python with pandas, scikit-learn and tensorflow to produce meaningful results. Employed classification algorithms like deep neural networks, logistic regression and decision trees using python on the UCI Machine Learning ‘HIGGS Data Set’ to predict whether an output signal from a collider, is a Higgs-Boson Particle signal or simply background noise. Achieved the accuracy of 76% with a deep neural network of 9 layers.</p>
+    <a class="project-link" href="https://github.com/remalcodex/MachineLearning/tree/master/Higgs_Boson_Project" target="_blank">Check it out</a>
+  </div>
+</div>
+
+      </section>
+        
+      <footer class="footer">
+    <p>&copy; Remaldeep Singh</p>
+    <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
+</footer>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="/assets/js/sweet-scroll.min.js"></script>
+<script src="/assets/js/main.js"></script>
+<!-- Google Analytics -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
